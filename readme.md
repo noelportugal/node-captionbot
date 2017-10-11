@@ -9,14 +9,14 @@
 ## Install
 
 ```
-$ npm install --save captionbot
+$ npm install --save node-captionbot
 ```
 
 
 ## Usage
 
 ```js
-const captionbot = require('captionbot');
+const captionbot = require('node-captionbot');
 
 captionbot('http://imgur.com/B7a15F5.jpg')
     .then(caption => {
